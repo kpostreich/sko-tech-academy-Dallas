@@ -1,0 +1,9 @@
+site_name: SKO Technical Academy -  Dallas
+nav:
+  - Home: index.md
+  - Mock POC - IBM WebSphere Automation: Mock_POC_IBM_WebSPhere_automation.md
+  - Deep Dive into IBM Transfromation Advisor and application assessments for modernization: Mock_POC_IBM_WebSPhere_automation.md
+  - Mock POC - Operational Modernization of WebSphere applications: Mock_POC_IBM_WebSPhere_automation.md
+  - Mock POC - Runtime Modernization of WebSphere applications: Mock_POC_IBM_WebSPhere_automation.md
+theme: readthedocs
+extra_css: ["extra.css"]
