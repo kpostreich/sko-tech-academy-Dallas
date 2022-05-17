@@ -74,7 +74,7 @@
     <a class="current" href="./">Session 4 - Mock POC - Runtime Modernization of WebSphere applications</a>
     <ul class="subnav">
             
-    <li class="toctree-l2"><a href="#runtime-modernization-mock-poc">Runtime Modernization Mock POC</a></li>
+    <li class="toctree-l2"><a href="#runtime-modernization-replatform-mock-poc">Runtime Modernization (Replatform) Mock POC</a></li>
     
         <ul>
         
@@ -139,10 +139,12 @@
           <div role="main">
             <div class="section">
               
-                <h2 id="runtime-modernization-mock-poc">Runtime Modernization Mock POC</h2>
+                <h2 id="runtime-modernization-replatform-mock-poc">Runtime Modernization (Replatform) Mock POC</h2>
 <h3 id="use-case-scenario">Use case scenario:</h3>
-<p>We have a high priority Log4J vulnerability identified in our WebSphere estate. The executives want to know what the plan is to resolve it, how long have we been exposed, and what is the reporting/tracking structure to show the scope of the vulnerability and resolution across our WebSphere estate.  </p>
-<p>Identify and resolve the vulnerability and demonstrate that the vulnerability has been resolved to the satisfaction of the business and security compliance officer. </p>
+<p>Your customer wants to move their traditional WebSphere applications to Liberty and deploy to a container-based cloud.  
+However, the development team do not know where to start and which application to move to Liberty at minimum effort. 
+They are asking you for suggestion on how to move one of their applications to cloud. </p>
+<p>You propose a POC to demonstrate modernizing one of their WebSphere applications by replatforming the application to Liberty, containerize the application, and deploy to OpenShift container-based cloud, maintaining the monolith application. </p>
 <h3 id="agenda">Agenda</h3>
 <table>
 <thead>
@@ -153,19 +155,15 @@
 </thead>
 <tbody>
 <tr>
-<td><code>15 min</code></td>
+<td><code>10 min</code></td>
 <td><strong>Instructor led walkthrough of mock POC requirements:</strong> Establish the goals and expectations for this session</td>
 </tr>
 <tr>
-<td><code>15 min</code></td>
+<td><code>5 min</code></td>
 <td><strong>Elect a team leader</strong>: The team leader will deliver the playback of the mock POC solutions to instructor</td>
 </tr>
 <tr>
-<td><code>15 min</code></td>
-<td><strong>Access the lab environments:</strong> Each team has access to their own OSCP cluster and a VM, both on IBM Cloud</td>
-</tr>
-<tr>
-<td><code>3 hours</code></td>
+<td><code>2.5 hours</code></td>
 <td><strong>Moc POC:</strong> As a team, work develop the solution for the mock POC use cases</td>
 </tr>
 <tr>
@@ -177,22 +175,23 @@
 <h3 id="team-activities-for-the-mock-poc">Team Activities for the mock POC</h3>
 <ul>
 <li><strong>Instructor guided</strong> review of the DoU/PoC document to understand the scope and exit requirements of each use case</li>
-<li>Select a team member to deliver the playback of the successful POC use cases: <strong>15 minutes</strong></li>
+<li>Select a team member to deliver the playback of the successful POC use cases: <strong>5 minutes</strong></li>
 <li>
 <p>Using the mock POC / DOU and activity guide, develop and showcase the required use cases outlined in the POC</p>
 <ul>
-<li>WebSphere Automation Alert notifications</li>
-<li>Integration with two WAS server (8.5.5.15 and 9.0.5.7)</li>
-<li>Security vulnerability resolution</li>
-<li>Security posture of WebSphere estate, fix history, CVE state, installed fixes, etc</li>
-<li>Audit reporting</li>
-<li>One team member will playback the use case solutions to an instructor and be assessed based on a standard rubric that is used across the mock POC playbacks. </li>
+<li>Perform an assessment of the applications that are deployed on the WebSphere server on VM</li>
+<li>Identify an application that would fit for a POC for a modernization to tWAS containers deployed to OpenShift</li>
+<li>Containerize and test the chosen application in local Docker containers (tWAS)</li>
+<li>Deploy the chosen application to OpenShift and test it</li>
 </ul>
+</li>
+<li>
+<p>One team member will playback the use case solutions to an instructor and be assessed based on a standard rubric that is used across the mock POC playbacks. </p>
 </li>
 </ul>
 <h3 id="links-to-mvp-project-material">Links to MVP Project Material</h3>
 <ul>
-<li><a href="https://ibm.box.com/v/WSA-student-material">IBM WebSphere Automation DOU/POC document and Student Guide</a></li>
+<li><a href="https://ibm.box.com/v/Runtime-mod-student-material">Operational Modernization DOU/POC document and Student Guide</a></li>
 </ul>
               
             </div>
